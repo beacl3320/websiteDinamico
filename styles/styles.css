@@ -1,0 +1,36 @@
+header{
+    background:beige;
+    width: 90%;
+    height: auto;
+    margin: auto;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navbar__image{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.navbar__image-img{
+    width: 100px;
+    display: flex;
+    justify-content: flex-start;
+    border-radius: 50%;
+    padding: 20px
+}
+
+.navbar__a{
+    padding: 20px;
+    margin: 30px;
+}
+
+.navbar__a-link{
+    text-decoration: none;
+    padding-left: 10px;
+    color: purple;
+}
