@@ -3,10 +3,14 @@ header{
     width: 90%;
     height: auto;
     margin: auto;
+    margin-top: 20px;
+    border-radius:8px;
+    box-shadow:0 0 40px -20px #000;
 }
 
 .navbar{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
 }
@@ -18,10 +22,11 @@ header{
 
 .navbar__image-img{
     width: 100px;
+    height: 100px;
     display: flex;
     justify-content: flex-start;
     border-radius: 50%;
-    padding: 20px
+    padding: 20px;
 }
 
 .navbar__a{
@@ -33,4 +38,87 @@ header{
     text-decoration: none;
     padding-left: 10px;
     color: purple;
+    font-size: 20px;
 }
+
+a:hover{
+    color: green;
+}
+
+.container{
+    width: 96%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+section{
+    background-color: rgba(223, 193, 193, 0.486);
+    width: 60%;
+    height: auto;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius:8px;
+    box-shadow:0 0 40px -20px #000;
+}
+
+aside{
+    background: rgba(169, 169, 226, 0.52);
+    height: auto;
+    margin-top: 20px;
+    padding: 20px;
+    width: 25%;
+    display: inline-block;
+    border-radius:8px;
+    box-shadow:0 0 40px -20px #000;
+}
+
+.aside__image{
+    display: flex;
+    width: 200px;
+    height: auto;
+}
+
+h3{
+    color:blueviolet;
+}
+
+footer{
+    background: rgba(184, 162, 206, 0.623);
+    width: 90%;
+    height: 60px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius:8px;
+    box-shadow:0 0 40px -20px #000;
+}
+
+.footer__link{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.footer__link-a{
+    color: blueviolet;
+    text-decoration: none;
+    padding: 20px;
+    
+}
+
+form{
+    width: 90%;
+    margin:auto;
+    background: cornsilk;
+    border-radius:8px;
+    box-shadow:0 0 40px -20px #000;
+}
+
+
+input{width:100%;padding:10px;box-sizing:border-box;background:none;outline:none;resize:none;border:0;font-family:'Montserrat',sans-serif;transition:all .3s;border-bottom:2px solid #bebed2}
+input:focus{border-bottom:2px solid #78788c}
+
+button:hover{background:#78788c;color:#fff}
