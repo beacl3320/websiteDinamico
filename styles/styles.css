@@ -1,6 +1,13 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400);
+
+body{
+    font-family: "Roboto", sans-serif;
+    width: 90%;
+    margin: 0 auto;
+}
+
 header{
     background:beige;
-    width: 90%;
     height: auto;
     margin: auto;
     margin-top: 20px;
@@ -46,7 +53,6 @@ a:hover{
 }
 
 .container{
-    width: 96%;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -86,7 +92,6 @@ h3{
 
 footer{
     background: rgba(184, 162, 206, 0.623);
-    width: 90%;
     height: 60px;
     margin: auto;
     margin-top: 20px;
@@ -106,19 +111,44 @@ footer{
     color: blueviolet;
     text-decoration: none;
     padding: 20px;
-    
 }
 
 form{
-    width: 90%;
-    margin:auto;
-    background: cornsilk;
+    padding: 60px;
+    background-color: #E7E7E7;
+    margin: 0 auto;
     border-radius:8px;
     box-shadow:0 0 40px -20px #000;
+    margin-top: 20px;
 }
 
+.form__input, .form__textarea{
+    margin-bottom: 15px;
+    width: 100%;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border: none;
+    color: #525c66;
+    font-size: 1em;
+    resize: horizontal;
+}
 
-input{width:100%;padding:10px;box-sizing:border-box;background:none;outline:none;resize:none;border:0;font-family:'Montserrat',sans-serif;transition:all .3s;border-bottom:2px solid #bebed2}
-input:focus{border-bottom:2px solid #78788c}
+.form__button {
+    display: block;
+    background-color: blueviolet;
+    padding: 10px 45px 10px 45px;
+    border: 0;
+    font-size: 1em;
+    color: white;
+    border-radius: 5px;
+}
 
-button:hover{background:#78788c;color:#fff}
+button:hover{
+    background-color: #046193;
+}
+
+/* @media screen and (min-width: 480px) {
+    p {font-size: 25px;}
+} */
+

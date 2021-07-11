@@ -133,25 +133,13 @@
         </div>
         </div>
         <div>
-            <form action="" method="POST">
+            <form action="formulario-contacto.php" method="post">
                 <h3>Contacta con nosotros</h3>
-                <label for="name">Nombre</label>
-                <input type="text" name="name" placeholder="Nombre">
-                <label for="surname">Apellidos</label>
-                <input type="text" name="surname">
-                <label for="age">Fecha de Nacimiento</label>
-                <input type="date" name="age">
-                <label for="email">Correo electrónico</label>
-                <input type="email" name="email">
-                <label for="password">Contraseña</label>
-                <input type="password" name="password">
-                <label for="hombre">Hombre</label>
-                <input type="radio" name="sexo">
-                <label for="mujer">Mujer</label>
-                <input type="radio" name="sexo">
-                <label for="comments">Comentarios/Preguntas</label>
-                <textarea placeholder="Indica tu comentario/pregunta" rows="10cols"></textarea>
-                <button type="submit">Enviar</button>
+                    <input class="form__input" name="nombre" type="text" placeholder="Nombre" maxlength="30" required/>
+                    <input class="form__input" name="email" type="email" placeholder="Correo electrónico" required />
+                    <input class="form__input" name="password" type="password" placeholder="Contraseña" required />
+                    <textarea class="form__textarea"name="consulta" placeholder="¿Cuál es el motivo de tu consulta?" rows="6" required></textarea>
+                    <button class="form__button" id="enviar" name="enviar" type="submit" class="btn">ENVIAR</button>
             </form>
         </div>
 
