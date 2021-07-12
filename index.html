@@ -11,13 +11,18 @@
         rel="shortcut icon"
         href="assets/butterfly.ico"
         type="image/x-icon"
-    />
+        />
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;400&display=swap" rel="stylesheet">
+        <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      />
         <title>Webiste Dinámico</title>
     </head>
     <div>
         <header>
             <nav class="navbar">
-                <div class="navbar__image">
+                <div class="navbar__image animate__animated animate__flip">
                     <img
                         class="navbar__image-img"
                         src="/assets/logo.jpg"
@@ -25,8 +30,8 @@
                     /><h1 class="navbar__image-title">Desarrollando Páginas Web</h1>
                 </div>
                 <div class="navbar__a">
-                    <i class="fas fa-home icono"></i><a class="navbar__a-link" #href="home">Home</a>
-                    <i class="fas fa-phone-volume icono"></i><a class="navbar__a-link" href="Contacto">Contacto</a>
+                    <i class="fas fa-home icono"></i><a class="navbar__a-link" href="#home">Home</a>
+                    <i class="fas fa-envelope-open-text icono"></i><a class="navbar__a-link" href="#Contacto">Contacto</a>
                     <i class="fas fa-user icono"></i><a class="navbar__a-link" href="Perfil">Perfil</a>
                 </div>
             </nav>
@@ -95,9 +100,9 @@
                             </article>
                 </section>
                 <aside>
-                    <h2>Contenidos actuales</h2>
+                    <h2 class="aside__title">Contenidos actuales</h2>
                     <h3>Webs de interés</h3>
-                    <h4>Dinamic Webs</h4>
+                    <h4 class="aside__title-notice">Dinamic Webs</h4>
                     <img
                         class="aside__image"
                         src="assets/ejemplos-paginas-web-dinamicas-img1.jpg"
@@ -106,8 +111,8 @@
                     <p>
                         En
                         <a
-                            href="https://dinamiq.es/?gclid=CjwKCAjw55-HBhAHEiwARMCszi_0PQ_fCje9RztRsGsKXylhRC4eFZ2UeYn5sQIsATt4R0xoBw0lwBoCfIIQAvD_BwE"
-                            >Dinamic Web</a
+                        class="aside__link" href="https://dinamiq.es/?gclid=CjwKCAjw55-HBhAHEiwARMCszi_0PQ_fCje9RztRsGsKXylhRC4eFZ2UeYn5sQIsATt4R0xoBw0lwBoCfIIQAvD_BwE"
+                            >"Dinamic Web"</a
                         >
                         sabemos que la organización es la clave para el éxito de
                         un proyecto de desarrollo web. Más de diez años de
@@ -121,14 +126,14 @@
                         cada parte del proceso: toma de requisitos, análisis del
                         sistema, diseño e implementación.
                     </p>
-                    <h4>Vansia</h4>
+                    <h4 class="aside__title-notice">Vansia</h4>
                     <img
                         class="aside__image"
                         src="/assets/plantillas_web_2021_movil.jpg"
                         alt="imagen desarrollo"
                     />
                     <p>
-                        En <a href="https://www.vansia.es/es/">Vansia</a>
+                        En <a class="aside__link" href="https://www.vansia.es/es/">"Vansia"</a>
                         atesoramos más de 20 años de experiencia en el sector,
                         esto unido a nuestra capacidad para adaptarnos a un
                         entorno tan cambiante como el de las nuevas tecnologías,
@@ -139,7 +144,7 @@
             </div>
         </div>
         </div>
-        <div>
+        <div id="Contacto">
             <form action="formulario-contacto.php" method="post">
                 <h3>Contacta con nosotros</h3>
                     <input class="form__input" name="nombre" type="text" placeholder="Nombre" maxlength="30" required/>
