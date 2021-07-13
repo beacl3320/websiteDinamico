@@ -81,7 +81,7 @@ a:hover {
 
 section {
     background-color: rgba(223, 193, 193, 0.486);
-    width: 60%;
+    width: 65%;
     height: auto;
     margin-top: 20px;
     padding: 20px;
@@ -95,7 +95,7 @@ aside {
     height: auto;
     margin-top: 20px;
     padding: 20px;
-    width: 30%;
+    width: 25%;
     /* display: inline-block; */
     flex-wrap: wrap;
     border-radius: 8px;
