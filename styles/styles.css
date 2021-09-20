@@ -202,6 +202,7 @@ footer {
 @media screen and (max-width: 900px) {
     header{
         background-position: center;
+        background: red;
     }
 
     section{
@@ -218,5 +219,12 @@ footer {
 
     .navbar__image{
         background-position: center;
+    }
+}
+
+@media screen and (max-width: 540px){
+    body{
+        width: 100%;
+        background: blue;
     }
 }
